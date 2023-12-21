@@ -1,0 +1,5 @@
+import math
+a,b=map(int,input("Enter 2 numbers:").split())
+ar_mean=(a+b)/2
+geo_mean=math.sqrt(a*b)
+print("arithmetic mean of 2 numbers is:",ar_mean,"geometric mean of 2 numbers is:",geo_mean)
