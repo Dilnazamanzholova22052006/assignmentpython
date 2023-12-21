@@ -1,1 +1,15 @@
-
+week_days = {
+    0: 'Sunday',
+    1: 'Monday',
+    2: 'Tuesday',
+    3: 'Wednesday',
+    4: 'Thursday',
+    5: 'Friday',
+    6: 'Saturday'
+}
+K = int(input("Enter a value for K (1-365): "))
+i = (K+3)%7
+print()
+print("Number of the day of the year: ", K)
+print("Number of the day of the week: ", i)
+print("Day of the week:",week_days[i])
