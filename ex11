@@ -1,0 +1,12 @@
+a = int(input("Enter a four-digit integer: "))
+
+if 1000<= a <=9999:
+    thousands_digit = a // 1000
+    hundreds_digit = (a // 100) % 10
+    tens_digit = (a // 10) % 10
+    units_digit = a % 10
+    digit_sum = thousands_digit + hundreds_digit + tens_digit + units_digit
+    print("sum of digits is=",digit_sum)
+else:
+    print("Please enter a valid four-digit integer.")
+
