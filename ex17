@@ -1,0 +1,4 @@
+a=int(input())
+volume=a**3
+area=6*(a**2)
+print("volume of a cube is=",volume,"\nsurface area of a cube is=",area)
