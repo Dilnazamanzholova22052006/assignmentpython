@@ -1,0 +1,4 @@
+import math
+x,y=map(float,input("Enter a numbers:").split())
+c=((abs(x)+abs(y))/(1+abs(x*y)))
+print("value=",c)
