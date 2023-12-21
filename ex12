@@ -1,1 +1,10 @@
+a = float(input("Enter a number: "))
+if a < 0:
+    print("Please enter a non-negative number.")
+else:
+    days = int(a // (24 * 3600))
+    hours = int((a % (24 * 3600)) // 3600)
+    minutes = int(((a % (24 * 3600)) % 3600) // 60)
+    seconds = int(((a % (24 * 3600)) % 3600) % 60)
+    print(f"The equivalent time is: {days}:{hours:02d}:{minutes:02d}:{seconds:02d}")
 
