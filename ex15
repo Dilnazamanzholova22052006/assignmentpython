@@ -1,0 +1,5 @@
+a,b,c,d=map(int,input().split())
+sum=a+b+c+d
+diff=a-b-c-d
+product=a*b*c*d
+print("Sum is:",sum,"\nDifference is:",diff,"\nProduct is:",product)
