@@ -1,0 +1,4 @@
+a=int(input())
+perimeter= 4*a
+area=a*a
+print("P of a square is ",perimeter,"\nS",area)
